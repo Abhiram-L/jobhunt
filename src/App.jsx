@@ -108,7 +108,7 @@ const AppRoutes = () => {
 // Main App component
 const App = () => {
   return (
-    <Router>
+    <Router basename="/jobhunt">
       <AppRoutes />
     </Router>
   );
